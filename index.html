@@ -5,27 +5,28 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 	<link rel="stylesheet" type="text/css" href="mobile/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
-	<header class="header-all">
-		<a class="header-logo" href="#">
-			<img src="imgs/YandexGo.svg">
-		</a>
-		<h1 class="header-title">Вступайте в клуб  Самокатов</h1>
-		<div class='header-info'>
-			<p class="header-info__text">Купите абонемент, чтобы стать частью клуба в новом сезоне–2024. 8 месяцев за</p>
-			<div class='header-info__sale'>
-				<p class='header-info__sale-new'>499 ₽</p>
-				<p class='header-info__sale-old'>3190 ₽</p>
+	<header >
+		<div class="header-all">
+			<a class="header-logo" href="#">
+				<img src="imgs/YandexGo.svg">
+			</a>
+			<h1 class="header-title">Вступайте в клуб  Самокатов</h1>
+			<div class='header-info'>
+				<p class="header-info__text">Купите абонемент, чтобы стать частью клуба в новом сезоне–2024. 8 месяцев за</p>
+				<div class='header-info__sale'>
+					<p class='header-info__sale-new'>499 ₽</p>
+					<p class='header-info__sale-old'>3190 ₽</p>
+				</div>
 			</div>
+			<button class="header-btn">Стать частью клуба</button>
+			<img class="header-banner" src="imgs/banner.svg">
 		</div>
-		<a class="header-banner" href="#">
-			<img src="imgs/banner.svg">
-		</a>
-		<button class="header-btn">Стать частью клуба</button>
 	</header>
 	<section class="block-bonus">
 		<h1 class="block-bonus-title">Вот что даёт участие в клубе</h1>
@@ -53,6 +54,16 @@
 		<p class="banner-scroll-info">
 			С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de Panique
 		</p>
+		<div class="banner-scroll__myself">
+		    <div>
+		    	<img src="imgs/swiper/01.png">
+		    	<img src="imgs/swiper/2.png">
+		    </div>
+		    <div>
+		    	<img src="imgs/swiper/4.png">
+		    	<img src="imgs/swiper/3.png">
+			</div>
+		</div>
 		<img class="banner-scroll-vectors-image" src="imgs/vectors.svg">
 		<img class="banner-scroll-cup-image" src="imgs/cup.svg">
 		<img class="banner-scroll-geoPoint-image" src="imgs/geoPoint.svg">
@@ -77,14 +88,18 @@
 	</section>
 	<section class="block-subscription">
 		<div class="block-subscription__first-block">
-			<h1>Купить абонемент и вступить в клуб смогут те, кто в Плюсе</h1>
-			<p>За каждую поездку на самокатах такие пользователи получают кешбэк баллами. Баллы можно тратить на поездки на самокатах и такси с Яндекс Go, покупки и заказы в других сервисах Яндекса</p>
+			<div>
+				<h1>Купить абонемент и вступить в клуб смогут те, кто в Плюсе</h1>
+				<p>За каждую поездку на самокатах такие пользователи получают кешбэк баллами. Баллы можно тратить на поездки на самокатах и такси с Яндекс Go, покупки и заказы в других сервисах Яндекса</p>
+			</div>
 			<img class="block-subscription-scooterPc" src="imgs/scooterPc.svg">
 		</div>
 		<div class="block-subscription__second-block">
 			<img src="imgs/inSocial.svg">
-			<h1>80  % наших пользователей уже в клубе и экономят на поездках</h1>
-			<p>Присоединяйтесь — опция начнёт действовать в начале сезона–2024. Об открытии сезона предупредим заранее, чтобы вы были готовы</p>
+			<div>
+				<h1>80  % наших пользователей уже в клубе и экономят на поездках</h1>
+				<p>Присоединяйтесь — опция начнёт действовать в начале сезона–2024. Об открытии сезона предупредим заранее, чтобы вы были готовы</p>
+			</div>
 		</div>
 		<button class="block-subscription-btn">Хочу абонемент</button>
 	</section>

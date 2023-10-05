@@ -187,6 +187,10 @@ body{
 	top: 290px;
 }
 
+.banner-scroll__myself{
+	display: none;
+}
+
 .swiper {
   max-width: 375px;
   height: 500px;
