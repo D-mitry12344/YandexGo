@@ -102,10 +102,15 @@ body{
 	border-radius: 36px;
 	background: #FFDE40;
 	box-shadow: 0px 4px 64px 0px rgba(255, 222, 64, 0.59);
-	margin: 0 auto;
 	display: block;
 	display: none;
 	position: fixed;
+	z-index: 100;
+}
+
+.header-btn{
+	right: 10%;	
+	bottom: -10%;
 }
 
 .header-btn:hover{
@@ -176,7 +181,8 @@ body{
 
 .banner-scroll-geoPoint-image,
 .banner-scroll-cup-image,
-.block-subscription-scooterPc{
+.block-subscription-scooterPc,
+.block-subscription-plus{
 	display: none;
 }
 

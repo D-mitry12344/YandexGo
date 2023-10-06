@@ -7,3 +7,8 @@
 	font-family: 'Yandex Sans bold';
 	src: url('YandexSansText-Bold.ttf');
 }
+
+@font-face{
+	font-family: 'Yandex SansDis bold';
+	src: url('YandexSansDisplay-Bold.ttf');
+}

@@ -12,6 +12,7 @@
 	.header-all{
 		width: 1440px;
 		height: 800px;
+		position: relative;
 	}
 
 	.header-logo{
@@ -29,9 +30,9 @@
 		font-size: 72px;
 		padding-left: 18.2%;
 		padding-top: 4.2%;
-		font-family: 'Yandex Sans bold';
+		font-family: 'Yandex SansDis bold';
 		font-style: normal;
-		font-weight: 700;
+		font-weight: 900;
 		line-height: 70px;
 		letter-spacing: 2px;
 	}
@@ -82,16 +83,16 @@
 		position: absolute;
 		padding-left: 0;
 		margin-top: 0;
-		top: 30px;
+		top: 40px;
 		right: 5%;
 		display: block;
-		width: 59%;
+		width: 58%;
 		z-index: -1;
 	}
 
 	.header-btn{
 		width: 311px;
-		padding: 20px 0px;
+		padding: 16px 0px 20px 0;
 		font-size: 24px;
 		border-radius: 36px;
 		margin: 0;
@@ -99,6 +100,8 @@
 		margin-top: 40px;
 		display: block;
 		position: relative;
+		bottom: 0;
+		right: 0;
 	}
 
 	.header-btn:hover{
@@ -139,8 +142,9 @@
 
 	.block-bonus__lists__item img{
 		width: 100px;
-		margin-left: -5px;
+		margin-left: -12px;
 	}
+
 
 	.block-bonus__lists__item p{
 		color: #21201F;
@@ -150,6 +154,12 @@
 		width: 85%;
 		padding-left: 0%;
 		padding-top: 2%;
+	}
+
+
+	.block-bonus__lists__item:nth-child(3) p,
+	.block-bonus__lists__item:nth-child(4) p{
+		padding-top: 0;
 	}
 
 	/*banner-scroll*/
@@ -175,6 +185,7 @@
 		padding-top: 2.2%;
 		width: 432px;
 		font-size: 24px;
+		line-height: 29px;
 		font-style: normal;
 		font-weight: 500;
 	}
@@ -187,8 +198,8 @@
 	}
 
 	.banner-scroll-cup-image{
-		right: 0px;
-		top: 930px;
+		right: 9px;
+		top: 920px;
 	}
 
 	.banner-scroll-geoPoint-image{
@@ -210,8 +221,8 @@
 	}
 
 	.banner-scroll__myself div:nth-child(1){
-		left: 18%;
-		top: 47px;
+		left: 17%;
+		top: 59px;
 	}
 
 	.banner-scroll__myself div:nth-child(2){
@@ -220,7 +231,7 @@
 	}
 
 	.banner-scroll__myself div img{
-		border-radius: 20%;
+		border-radius: 11%;
 		margin: 10px 0;
 		width: 455px;
 	}
@@ -243,6 +254,7 @@
 	.block-subscription__second-block{
 		display: flex;
 		padding-left: 18.2%;
+		position: relative;
 	}
 
 	.block-subscription__second-block div{
@@ -273,14 +285,25 @@
 		font-weight: 500;
 	}
 
+	.block-subscription__second-block h1{
+		padding-top: 10%;
+	}
+
 	.block-subscription__second-block p{
 		padding-top: 6.7%;
 	}
 
 	.block-subscription-scooterPc{
 		display: block;
-		margin-left: -120px;
-		margin-top: -180px;
+		margin-left: -115px;
+		margin-top: -175px;
+	}
+
+	.block-subscription-plus{
+		display: block;
+		position: absolute;
+		margin-left: 470px;
+		margin-top: 110px;
 	}
 
 	.block-subscription__second-block img{
@@ -290,13 +313,14 @@
 	}
 
 	.block-subscription-btn{
-		width: 311px;
+		width: 281px;
 		padding: 18px 0px;
 		font-size: 24px;
 		margin: 0;
-		margin-top: -140px;
+		margin-top: -150px;
 		margin-left: auto;
-		margin-right: 400px;
+		margin-right: 420px;
+		font-weight: 400; 
 		display: block;
 	}
 
@@ -306,7 +330,7 @@
 
 	.footer-block p{
 		padding-top: 110px;
-		width: 906px;
+		width: 910px;
 		font-size: 13px;
 		margin: 0 auto;
 		padding-bottom: 10%;
