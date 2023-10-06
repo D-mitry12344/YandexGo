@@ -9,11 +9,14 @@ const swiper = new Swiper('.swiper', {
 });
 
 window.addEventListener('scroll', function() {
-  if(pageYOffset > 600 && pageYOffset < 1900){
-  	document.querySelector('#btn-fixed-club').style.display="block";
-  	setTimeout(()=>{document.querySelector('#btn-fixed-club').style.bottom="10%"} , 100)
-  }else{
-  	setTimeout(()=>{document.querySelector('#btn-fixed-club').style.display=""} , 100)
-  	document.querySelector('#btn-fixed-club').style.bottom="";
+  if(window.innerWidth < 376){
+    if(pageYOffset > 600 && pageYOffset < 1900){
+      document.querySelector('#btn-fixed-club').style.display="block";
+      setTimeout(()=>{document.querySelector('#btn-fixed-club').style.bottom="10%"} , 100)
+    }else{
+      setTimeout(()=>{document.querySelector('#btn-fixed-club').style.display=""} , 100)
+      document.querySelector('#btn-fixed-club').style.bottom="";
+    }
   }
+  
 });
