@@ -90,6 +90,12 @@
 		z-index: -1;
 	}
 
+	#btn-fixed-club{
+		display: block;
+	    position: relative;
+	    bottom: 0;
+	}
+
 	.header-btn{
 		width: 311px;
 		padding: 16px 0px 20px 0;
