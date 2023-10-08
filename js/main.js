@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper', {
 });
 
 window.addEventListener('scroll', function() {
-  if(window.innerWidth < 376){
+  if(window.innerWidth < 600){
     if(pageYOffset > 600 && pageYOffset < 1900){
       document.querySelector('#btn-fixed-club').style.display="block";
       setTimeout(()=>{document.querySelector('#btn-fixed-club').style.bottom="10%"} , 100)
